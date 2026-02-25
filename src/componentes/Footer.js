@@ -7,9 +7,9 @@ function Footer(){
     return(
         <footer>
             <div>
-                <img src={LogoVerde}/>
-                <a href="https://www.instagram.com/" target="_blank"><i className="bi bi-instagram"></i><span>Instagram</span></a>
-                <a href="https://web.whatsapp.com/" target="_blank"><i className="bi bi-whatsapp"></i><span>Whatsapp</span></a>
+                <img src={LogoVerde} alt='Logo da Clínica'/>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i><span>Instagram</span></a>
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i className="bi bi-whatsapp"></i><span>Whatsapp</span></a>
             </div>
             <span id='direitos'><i className="bi bi-at"></i>Copyright Clínica Médica, 
                 todos os direitos reservados</span>

@@ -8,7 +8,7 @@ import CadastroMedico from "./componentes/CadastroMedico";
 import Corpo from "./componentes/Corpo";
 import FaleConosco from "./componentes/FaleConosco";
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 
 function App() {
   return (

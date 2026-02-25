@@ -11,7 +11,7 @@ function Header(){
     return(
         <>
             <header>
-                <img src={LogoBranco}/>
+                <img src={LogoBranco} alt='Logo da Clínica'/>
                 <nav id='lista1'>
                     <ul id='listacima'>
                         <li><Link to="/">INÍCIO</Link></li>
