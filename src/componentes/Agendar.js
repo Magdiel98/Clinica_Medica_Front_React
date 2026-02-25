@@ -15,11 +15,11 @@ function Agendar(){
     const [medicos, setMedicos] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8080/pacientes")
+        fetch("https://clinica-medica-8pva.onrender.com/pacientes")
             .then(res => res.json())
             .then(data => setPacientes(data));
 
-        fetch("http://localhost:8080/medicos")
+        fetch("https://clinica-medica-8pva.onrender.com/medicos")
             .then(res => res.json())
             .then(data => setMedicos(data));
     }, []);
@@ -43,8 +43,8 @@ function Agendar(){
             medicoId: Number(form.medico)
         };
 
-        try {
-            const response = await fetch("http://localhost:8080/consultas", {
+        try {medicos
+            const response = await fetch("https://clinica-medica-8pva.onrender.com/consultas", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

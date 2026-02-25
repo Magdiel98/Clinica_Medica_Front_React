@@ -7,7 +7,7 @@ function Corpo(){
     const [medicos, setMedicos] = useState([]);
     
         useEffect(() => {
-            fetch("http://localhost:8080/medicos")
+            fetch("https://clinica-medica-8pva.onrender.com/medicos")
                 .then((response) => response.json())
                 .then((data) => {
                     setMedicos(data);

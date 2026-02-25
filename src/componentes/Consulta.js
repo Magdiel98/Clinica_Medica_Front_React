@@ -6,7 +6,7 @@ function Consulta(){
     const [consultas, setConsultas] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8080/consultas")
+        fetch("https://clinica-medica-8pva.onrender.com/consultas")
             .then((response) => response.json())
             .then((data) => {
                 setConsultas(data);

@@ -23,7 +23,7 @@ function CadastroPaciente(){
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:8080/pacientes", {
+            const response = await fetch("https://clinica-medica-8pva.onrender.com/pacientes", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
