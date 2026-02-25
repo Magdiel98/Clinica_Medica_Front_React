@@ -1,0 +1,104 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #C8C8C8;
+    box-shadow: -1px 1px 9px #C8C8C8;
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 45px;
+
+    img{
+        width: 7rem;
+    }
+
+    nav#lista1{   
+        flex: 1;            
+        display: flex;
+        justify-content: center; 
+        position: relative;
+    }
+
+    ul#listacima{
+       display: flex; 
+       list-style-type: none;
+
+
+       li {
+        margin: 0 2vw 0px 2vw;
+            a{
+                color: #00BF62;
+                text-decoration: none;
+                font-weight: bolder;
+                transition: color .5s;
+            }
+
+            a:hover{
+                color: #01FF85;
+            }
+       }
+
+    }
+
+    ul#listaburguer{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        list-style-type: none;
+        position: absolute;
+        top: 60px;
+        width: 215px;
+        height: 145px;
+        box-shadow: -1px 1px 9px #C8C8C8;
+
+         li {
+            a{
+                color: #00BF62;
+                text-decoration: none;
+                font-weight: bolder;
+                transition: color .5s;
+            }
+
+            a:hover{
+                color: #01FF85;
+            }
+        }
+    }
+
+    button#botaolista{
+        width: 50px;
+        height: 50px;
+        box-shadow: -1px 1px 5px #C8C8C8; 
+    }
+
+    button#botaolista.btn{
+        transition: background-color .5s;
+    }   
+
+    button#botaolista.btn:hover{
+        background-color:#C8C8C8;
+    }
+
+    @media(max-width: 760px){
+        nav#lista1 {
+            ul#listacima{
+                display: none;
+            }
+        }
+    }
+
+    @media(min-width:760px)
+    {
+
+        nav#lista1 {
+            button#botaolista{
+                display: none;
+            }    
+        }
+        
+    }
+}
+            
+       
+
+    
