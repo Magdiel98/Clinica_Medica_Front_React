@@ -145,7 +145,7 @@ function Agendar(){
 
             <p className="cadastro">
                 Ainda não possui cadastro?{" "}
-                <Link to="/cadastro_paciente">Cadastre-se</Link>
+                <Link to="/cadastropaciente">Cadastre-se</Link>
             </p>
 
             <p className="cadastro">

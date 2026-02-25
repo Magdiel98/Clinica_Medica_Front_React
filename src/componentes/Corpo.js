@@ -20,7 +20,7 @@ function Corpo(){
     return(
         <main>
             <h1>CORPO CLÍNICO</h1>
-            <Link id="cadastro" to="/cadastro_medico">Cadastro Médico</Link>
+            <Link id="cadastro" to="/cadastromedico">Cadastro Médico</Link>
             <div id="conjunto">
                 { medicos.map((item, index) => (
                     <div id="cartao" className="card" key={index}>

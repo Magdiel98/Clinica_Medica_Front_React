@@ -17,7 +17,7 @@ function Header(){
                         <li><Link to="/">INÍCIO</Link></li>
                         <li><Link to="/agendar">AGENDAR CONSULTA</Link></li>
                         <li><Link to="/corpo">CORPO CLÍNICO</Link></li>
-                        <li><Link to="/fale_conosco">FALE CONOSCO</Link></li>
+                        <li><Link to="/faleconosco">FALE CONOSCO</Link></li>
                     </ul>
                      <button type="button" className="btn" id="botaolista" onClick={() => setVisual(!visual)}>
                         <i class="bi bi-list"></i>
@@ -26,7 +26,7 @@ function Header(){
                         <li><Link to="/">INÍCIO</Link></li>
                         <li><Link to="/agendar">AGENDAR CONSULTA</Link></li>
                         <li><Link to="/corpo">CORPO CLÍNICO</Link></li>
-                        <li><Link to="/fale_conosco">FALE CONOSCO</Link></li>
+                        <li><Link to="/faleconosco">FALE CONOSCO</Link></li>
                     </ul>
                 </nav>
             </header>

@@ -17,7 +17,7 @@ function Footer(){
                 <li><Link to="/">Início</Link></li>
                 <li><Link to="/agendar">Agendar Consulta</Link></li>
                 <li><Link to="/corpo">Corpo Clínico</Link></li>
-                <li><Link to="/fale_conosco">Fale Conosco</Link></li>
+                <li><Link to="/faleconosco">Fale Conosco</Link></li>
             </ul>
         </footer>
     );

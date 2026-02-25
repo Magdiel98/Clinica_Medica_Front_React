@@ -3,10 +3,10 @@ import Footer from "./componentes/Footer";
 import Agendar from "./componentes/Agendar";
 import Home from "./componentes/Home";
 import Consulta from "./componentes/Consulta";
-import Cadastro_Paciente from "./componentes/Cadastro_Paciente";
-import Cadastro_Medico from "./componentes/Cadastro_Medico";
+import CadastroPaciente from "./componentes/CadastroPaciente";
+import CadastroMedico from "./componentes/CadastroMedico";
 import Corpo from "./componentes/Corpo";
-import Fale_Conosco from "./componentes/Fale_Conosco";
+import FaleConosco from "./componentes/FaleConosco";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -19,10 +19,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/agendar" element={<Agendar />} />
         <Route path="/consulta" element={<Consulta />} />
-        <Route path="/cadastro_paciente" element={<Cadastro_Paciente />} />
-        <Route path="/cadastro_medico" element={<Cadastro_Medico />} />
+        <Route path="/cadastropaciente" element={<CadastroPaciente />} />
+        <Route path="/cadastromedico" element={<CadastroMedico />} />
         <Route path="/corpo" element={<Corpo />} />
-        <Route path="/fale_conosco" element={<Fale_Conosco />} />
+        <Route path="/faleconosco" element={<FaleConosco />} />
       </Routes>
 
       <Footer />

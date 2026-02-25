@@ -1,6 +1,6 @@
-import "../styles/componentes/fale_conosco.scss";
+import "../styles/componentes/faleconosco.scss";
 
-function Fale_Conosco(){
+function FaleConosco(){
     return(
         <main className="container mt-4">
             <h1>FALE CONOSCO</h1>
@@ -62,4 +62,4 @@ function Fale_Conosco(){
     );
 }
 
-export default Fale_Conosco;       
+export default FaleConosco;       

@@ -1,7 +1,7 @@
-import "../styles/componentes/cadastro_medico.scss";
+import "../styles/componentes/cadastromedico.scss";
 import { useState } from "react";
 
-function Cadastro_Medico(){
+function CadastroMedico(){
 
     const [form, setForm] = useState({
         nome: "",
@@ -116,4 +116,4 @@ function Cadastro_Medico(){
     );
 }
 
-export default Cadastro_Medico;
+export default CadastroMedico;
