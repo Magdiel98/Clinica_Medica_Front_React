@@ -16,7 +16,7 @@ You don't need to install anything to run this project.
 ## Usage
 
 To use this interface, download the project to your computer and run it locally or 
-you can open this project accessing this link: .
+you can open this project accessing this link: https://clinica-medica-front-react.vercel.app/.
 
 ## Contributing 
 
